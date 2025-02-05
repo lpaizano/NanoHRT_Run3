@@ -1,0 +1,174 @@
+b9p03p0341.cern.ch
+workdir: /pool/condor/dir_2156078
+args: 67
+total 110456
+-rw-r--r--. 1 lpaizano zh 112596783 Feb  5 15:00 CMSSW.tar.gz
+-rw-r--r--. 1 lpaizano zh         0 Feb  5 15:00 _condor_stderr
+-rw-r--r--. 1 lpaizano zh        62 Feb  5 15:00 _condor_stdout
+-rw-r--r--. 1 lpaizano zh       470 Feb  5 15:00 heavyFlavSFTree_cfg.json
+-rw-r--r--. 1 lpaizano zh       910 Feb  5 15:00 keep_and_drop_input.txt
+-rw-r--r--. 1 lpaizano zh       460 Feb  5 15:00 keep_and_drop_output.txt
+-rw-------. 1 lpaizano zh      3092 Feb  5 15:00 lpaizano.cc
+-rw-r--r--. 1 lpaizano zh    462466 Feb  5 15:00 metadata.json
+-rwxr-xr-x. 1 lpaizano zh      5093 Feb  5 15:00 processor.py
+-rwxr-xr-x. 1 lpaizano zh      1502 Feb  5 15:00 run_postproc_condor.sh
+drwx------. 2 lpaizano zh         6 Feb  5 15:00 srv
+drwx------. 2 lpaizano zh         6 Feb  5 15:00 tmp
+drwx------. 3 lpaizano zh        17 Feb  5 15:00 var
+-rw-------. 1 lpaizano zh     10266 Feb  5 15:00 x509up_u135744
+>>> creating new release CMSSW_11_1_0_pre5_PY3
+WARNING: Developer's area is created for architecture slc7_amd64_gcc820 while your current OS is EL9.
+WARNING: You are trying to use SCRAM architecture 'slc7' on host with operating system 'el9'.
+         This is not supported and likely will not work and you might get build/runtime errors. Please either
+         - use correct SCRAM_ARCH to match your host's operating system.
+         - OR use 'cmssw-el7' script to start a singularity container (http://cms-sw.github.io/singularity.html)
+         - OR use host which has 'slc7' installed e.g. lxplus8 for el8, lxplus9 for el9 or lxplus7 for slc7.
+>>> preparing sandbox release CMSSW_11_1_0_pre5_PY3
+>>> fixing python paths
+[2025-02-05 15:00:56] wrapper ready
+total 110460
+-rw-r--r--. 1 lpaizano zh 112596783 Feb  5 15:00 CMSSW.tar.gz
+drwxr-xr-x. 9 lpaizano zh       124 Feb  5 15:00 CMSSW_11_1_0_pre5_PY3
+-rw-r--r--. 1 lpaizano zh       666 Feb  5 15:00 _condor_stderr
+-rw-r--r--. 1 lpaizano zh      1727 Feb  5 15:00 _condor_stdout
+-rw-r--r--. 1 lpaizano zh       470 Feb  5 15:00 heavyFlavSFTree_cfg.json
+-rw-r--r--. 1 lpaizano zh       910 Feb  5 15:00 keep_and_drop_input.txt
+-rw-r--r--. 1 lpaizano zh       460 Feb  5 15:00 keep_and_drop_output.txt
+-rw-------. 1 lpaizano zh      3092 Feb  5 15:00 lpaizano.cc
+-rw-r--r--. 1 lpaizano zh    462466 Feb  5 15:00 metadata.json
+-rwxr-xr-x. 1 lpaizano zh      5093 Feb  5 15:00 processor.py
+-rwxr-xr-x. 1 lpaizano zh      1502 Feb  5 15:00 run_postproc_condor.sh
+drwx------. 2 lpaizano zh         6 Feb  5 15:00 srv
+drwx------. 3 lpaizano zh        43 Feb  5 15:00 tmp
+drwx------. 3 lpaizano zh        17 Feb  5 15:00 var
+-rw-------. 1 lpaizano zh     10266 Feb  5 15:00 x509up_u135744
+Loading heavyFlavSFTreeFromConfig from PhysicsTools.NanoHRTTools.producers.HeavyFlavSFTreeProducer 
+Loading puWeight_2022 from PhysicsTools.NanoAODTools.postprocessing.modules.common.puWeightProducer 
+Loading topPtWeight from PhysicsTools.NanoHRTTools.producers.topPtWeightProducer 
+['root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/9e11d4cf-a182-42c9-8d74-a13f790ab39f.root', 'root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/9e77aacf-907a-4024-8d9d-cbc034208128.root', 'root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/9f981499-2c79-4257-b4b0-fc8e2df2b443.root', 'root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/29ab1ec0-c564-49d7-9443-5913755962d6.root', 'root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/40b5d53e-a221-4d6f-bf5a-f39ca0293ea5.root', 'root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/41f18f83-2239-48af-b719-314b5751a535.root', 'root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/42bc9984-7cff-4a1a-b4a9-762fb236d539.root', 'root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/48ba97bd-9ec8-46bd-a25a-27315a5d6c8f.root', 'root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/50e360c1-6d99-41d3-9bd6-54a5517e1f25.root', 'root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/63ac6fb5-882b-4f07-b471-dc8bfaba9422.root']
+Will write selected trees to .
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_V2_MC.tar.gz to /pool/condor/dir_2156078/tmpvcstkb1k
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_RunCD_V2_DATA.tar.gz to /pool/condor/dir_2156078/tmpvcstkb1k
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_RunCD_V2_DATA.tar.gz to /pool/condor/dir_2156078/tmpvcstkb1k
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_JRV1_MC.tar.gz to /pool/condor/dir_2156078/tmppe0bpn4l
+Loading jet energy resolutions (JER) from file '/pool/condor/dir_2156078/tmppe0bpn4l/Summer22_22Sep2023_JRV1_MC_PtResolution_AK4PFPuppi.txt'
+Loading JER scale factors and uncertainties from file '/pool/condor/dir_2156078/tmppe0bpn4l/Summer22_22Sep2023_JRV1_MC_SF_AK4PFPuppi.txt'
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_V2_MC.tar.gz to /pool/condor/dir_2156078/tmpz98ho3gm
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_RunCD_V2_DATA.tar.gz to /pool/condor/dir_2156078/tmpz98ho3gm
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_RunCD_V2_DATA.tar.gz to /pool/condor/dir_2156078/tmpz98ho3gm
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_JRV1_MC.tar.gz to /pool/condor/dir_2156078/tmpvryi53xs
+Loading jet energy resolutions (JER) from file '/pool/condor/dir_2156078/tmpvryi53xs/Summer22_22Sep2023_JRV1_MC_PtResolution_AK8PFPuppi.txt'
+Loading JER scale factors and uncertainties from file '/pool/condor/dir_2156078/tmpvryi53xs/Summer22_22Sep2023_JRV1_MC_SF_AK8PFPuppi.txt'
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_V2_MC.tar.gz to /pool/condor/dir_2156078/tmph0q35g80
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_RunCD_V2_DATA.tar.gz to /pool/condor/dir_2156078/tmph0q35g80
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_RunCD_V2_DATA.tar.gz to /pool/condor/dir_2156078/tmph0q35g80
+... extracted /pool/condor/dir_2156078/tmp/CMSSW_11_1_0_pre5_PY3/src/PhysicsTools/NanoHRTTools/data/jme/Summer22_22Sep2023_JRV1_MC.tar.gz to /pool/condor/dir_2156078/tmpuu4atfie
+Loading jet energy resolutions (JER) from file '/pool/condor/dir_2156078/tmpuu4atfie/Summer22_22Sep2023_JRV1_MC_PtResolution_AK4PFPuppi.txt'
+Loading JER scale factors and uncertainties from file '/pool/condor/dir_2156078/tmpuu4atfie/Summer22_22Sep2023_JRV1_MC_SF_AK4PFPuppi.txt'
+Pre-select 8501 entries out of 223360 (3.81%)
+Processed 8501 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/9e11d4cf-a182-42c9-8d74-a13f790ab39f.root (223360 entries). Finally selected 1923 entries
+Done ./9e11d4cf-a182-42c9-8d74-a13f790ab39f_Skim.root
+Pre-select 245 entries out of 6282 (3.90%)
+Processed 245 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/9e77aacf-907a-4024-8d9d-cbc034208128.root (6282 entries). Finally selected 49 entries
+Done ./9e77aacf-907a-4024-8d9d-cbc034208128_Skim.root
+Pre-select 5847 entries out of 154258 (3.79%)
+Processed 5847 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/9f981499-2c79-4257-b4b0-fc8e2df2b443.root (154258 entries). Finally selected 1340 entries
+Done ./9f981499-2c79-4257-b4b0-fc8e2df2b443_Skim.root
+Pre-select 1263 entries out of 34202 (3.69%)
+Processed 1263 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/29ab1ec0-c564-49d7-9443-5913755962d6.root (34202 entries). Finally selected 292 entries
+Done ./29ab1ec0-c564-49d7-9443-5913755962d6_Skim.root
+Pre-select 6276 entries out of 164728 (3.81%)
+Processed 6276 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/40b5d53e-a221-4d6f-bf5a-f39ca0293ea5.root (164728 entries). Finally selected 1402 entries
+Done ./40b5d53e-a221-4d6f-bf5a-f39ca0293ea5_Skim.root
+Pre-select 6001 entries out of 159144 (3.77%)
+Processed 6001 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/41f18f83-2239-48af-b719-314b5751a535.root (159144 entries). Finally selected 1371 entries
+Done ./41f18f83-2239-48af-b719-314b5751a535_Skim.root
+Pre-select 155 entries out of 4188 (3.70%)
+Processed 155 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/42bc9984-7cff-4a1a-b4a9-762fb236d539.root (4188 entries). Finally selected 28 entries
+Done ./42bc9984-7cff-4a1a-b4a9-762fb236d539_Skim.root
+Pre-select 314 entries out of 7678 (4.09%)
+Processed 314 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/48ba97bd-9ec8-46bd-a25a-27315a5d6c8f.root (7678 entries). Finally selected 71 entriesAdding file 29ab1ec0-c564-49d7-9443-5913755962d6_Skim.root
+Adding file 40b5d53e-a221-4d6f-bf5a-f39ca0293ea5_Skim.root
+Adding file 41f18f83-2239-48af-b719-314b5751a535_Skim.root
+Adding file 42bc9984-7cff-4a1a-b4a9-762fb236d539_Skim.root
+Adding file 48ba97bd-9ec8-46bd-a25a-27315a5d6c8f_Skim.root
+Adding file 50e360c1-6d99-41d3-9bd6-54a5517e1f25_Skim.root
+Adding file 63ac6fb5-882b-4f07-b471-dc8bfaba9422_Skim.root
+Adding file 9e11d4cf-a182-42c9-8d74-a13f790ab39f_Skim.root
+Adding file 9e77aacf-907a-4024-8d9d-cbc034208128_Skim.root
+Adding file 9f981499-2c79-4257-b4b0-fc8e2df2b443_Skim.root
+Merginggenweight
+MergingTT_toppt_weight
+MergingEvents
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+MergingLuminosityBlocks
+MergingRuns
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+missing: []
+ Additional: []
+Mergingtag
+
+Done ./48ba97bd-9ec8-46bd-a25a-27315a5d6c8f_Skim.root
+Pre-select 11617 entries out of 303630 (3.83%)
+Processed    10000/   11617 entries, 86.08% (elapsed time   937.5s, curr speed    0.011 kHz, avg speed    0.011 kHz), accepted     2360/   10001 events (23.60%)
+Processed 11617 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/50e360c1-6d99-41d3-9bd6-54a5517e1f25.root (303630 entries). Finally selected 2735 entries
+Done ./50e360c1-6d99-41d3-9bd6-54a5517e1f25_Skim.root
+Pre-select 5656 entries out of 152164 (3.72%)
+Processed 5656 preselected entries from root://xrootd-cms.infn.it////store/mc/Run3Summer22NanoAODv12/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5_ext1-v2/40000/63ac6fb5-882b-4f07-b471-dc8bfaba9422.root (152164 entries). Finally selected 1284 entries
+Done ./63ac6fb5-882b-4f07-b471-dc8bfaba9422_Skim.root
+Total time 4787.2 sec. to process 1209634 events. Rate = 252.7 Hz.
+xrdcp --silent -p -f TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_28_tree.root root://eosuser.cern.ch///eos/user/l/lpaizano/Flat_Trees_Test_ak8_muon_2022/mc/pieces/TTtoLNu2Q_TuneCP5_13p6TeV_powheg-pythia8_28_tree.root
+total 110512
+-rw-r--r--. 1 lpaizano zh 112596783 Feb  5 15:00 CMSSW.tar.gz
+drwxr-xr-x. 9 lpaizano zh       124 Feb  5 15:00 CMSSW_11_1_0_pre5_PY3
+-rw-r--r--. 1 lpaizano zh     12616 Feb  5 16:23 _condor_stderr
+-rw-r--r--. 1 lpaizano zh     13523 Feb  5 16:23 _condor_stdout
+-rw-r--r--. 1 lpaizano zh       470 Feb  5 15:00 heavyFlavSFTree_cfg.json
+-rw-r--r--. 1 lpaizano zh       910 Feb  5 15:00 keep_and_drop_input.txt
+-rw-r--r--. 1 lpaizano zh       460 Feb  5 15:00 keep_and_drop_output.txt
+-rw-------. 1 lpaizano zh      5770 Feb  5 16:22 lpaizano.cc
+-rw-r--r--. 1 lpaizano zh    462466 Feb  5 15:00 metadata.json
+-rwxr-xr-x. 1 lpaizano zh      5093 Feb  5 15:00 processor.py
+-rwxr-xr-x. 1 lpaizano zh      1502 Feb  5 15:00 run_postproc_condor.sh
+drwx------. 2 lpaizano zh         6 Feb  5 15:00 srv
+drwx------. 3 lpaizano zh        43 Feb  5 15:00 tmp
+drwx------. 2 lpaizano zh      4096 Feb  5 15:01 tmph0q35g80
+drwx------. 2 lpaizano zh      4096 Feb  5 15:01 tmppe0bpn4l
+drwx------. 2 lpaizano zh      4096 Feb  5 15:01 tmpuu4atfie
+drwx------. 2 lpaizano zh      4096 Feb  5 15:01 tmpvcstkb1k
+drwx------. 2 lpaizano zh      4096 Feb  5 15:01 tmpvryi53xs
+drwx------. 2 lpaizano zh      4096 Feb  5 15:01 tmpz98ho3gm
+drwx------. 3 lpaizano zh        17 Feb  5 15:00 var
+-rw-------. 1 lpaizano zh     10266 Feb  5 15:00 x509up_u135744

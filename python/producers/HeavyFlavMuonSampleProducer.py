@@ -79,3 +79,5 @@ class MuonSampleProducer(HeavyFlavBaseProducer):
 def MuonTree_2016(): return MuonSampleProducer(year=2016)
 def MuonTree_2017(): return MuonSampleProducer(year=2017)
 def MuonTree_2018(): return MuonSampleProducer(year=2018)
+def MuonTree_2022(): return MuonSampleProducer(year=2022)
+def MuonTree_2023(): return MuonSampleProducer(year=2023)

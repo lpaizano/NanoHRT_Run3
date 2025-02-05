@@ -1,0 +1,112 @@
+mkdir: cannot create directory ‘tmp’: File exists
+WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.
+WARNING: You are trying to use SCRAM architecture 'slc7' on host with operating system 'el9'.
+         This is not supported and likely will not work and you might get build/runtime errors. Please either
+         - use correct SCRAM_ARCH to match your host's operating system.
+         - OR use 'cmssw-el7' script to start a singularity container (http://cms-sw.github.io/singularity.html)
+         - OR use host which has 'slc7' installed e.g. lxplus8 for el8, lxplus9 for el9 or lxplus7 for slc7.
+[2025-02-05 15:01:17,562] INFO: Running muon channel for ak8 jets with JME systematics {'jec': False, 'jes': None, 'jes_source': '', 'jes_uncertainty_file_prefix': '', 'jer': 'nominal', 'jmr': None, 'met_unclustered': None, 'smearMET': False, 'applyHEMUnc': False}, other options {'sfbdt_threshold': -99, 'run_tagger': False, 'tagger_versions': ['V02b', 'V02c', 'V02d'], 'run_mass_regression': False, 'mass_regression_versions': ['V01a', 'V01b', 'V01c'], 'WRITE_CACHE_FILE': False, 'jetType': 'ak8', 'year': 2022}
+Error in <THashList::Delete>: A list is accessing an object (0x426e320) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x423f420) already deleted (list name = THashList)
+Error in <TList::Clear>: A list is accessing an object (0x480dbb0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4815500) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4815410) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4815320) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x480fe40) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x47e6820) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x47e6980) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x47ea580) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4519420) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x47ef680) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x480aea0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4511910) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x21db4d0) already deleted (list name = TList)
+Error in <TList::Clear>: A list is accessing an object (0x4809740) already deleted (list name = TList)
+Error in <THashList::Delete>: A list is accessing an object (0x42233a0) already deleted (list name = THashList)
+[2025-02-05 15:01:20,490] INFO: Init JetCorrector: Summer22_22Sep2023_V2_MC, AK4PFPuppi, ['L2Relative', 'L3Absolute']
+[2025-02-05 15:01:20,632] INFO: Init JetCorrector: Summer22_22Sep2023_RunCD_V2_DATA, AK4PFPuppi, ['L2Relative', 'L3Absolute', 'L2L3Residual']
+[2025-02-05 15:01:20,689] INFO: Init JetCorrector: Summer22_22Sep2023_V2_MC, AK8PFPuppi, ['L2Relative', 'L3Absolute']
+[2025-02-05 15:01:20,724] INFO: Init JetCorrector: Summer22_22Sep2023_RunCD_V2_DATA, AK8PFPuppi, ['L2Relative', 'L3Absolute', 'L2L3Residual']
+[2025-02-05 15:01:20,746] INFO: Init JetCorrector: Summer22_22Sep2023_V2_MC, AK4PFPuppi, ['L2Relative', 'L3Absolute']
+[2025-02-05 15:01:20,782] INFO: Init JetCorrector: Summer22_22Sep2023_RunCD_V2_DATA, AK4PFPuppi, ['L2Relative', 'L3Absolute', 'L2L3Residual']
+Unable to load sec.protocol plugin libXrdSecztn.so
+Error in <THashList::Delete>: A list is accessing an object (0x3172d50) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x3172d50) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x69627c0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x69627c0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xab54d60) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xab54d60) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xb9cb620) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xb9cb620) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xc876e80) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xc876e80) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xcc03800) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xcc03800) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xe3184a0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xe3184a0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x170110e0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x170110e0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xe065920) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xe065920) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x175ffb70) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x175ffb70) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xdb772c0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xdb772c0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xe00df50) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xe00df50) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xf547a90) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xf547a90) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x14b910e0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x14b910e0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x18cc7300) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x18cc7300) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xe390c40) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xe390c40) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x18f4d5b0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x18f4d5b0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x17f599f0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x17f599f0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x16abddd0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x16abddd0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x14354480) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x14354480) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x14354870) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x14354870) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xca96060) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xca96060) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x154d5e80) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x154d5e80) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xd6e5eb0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0xd6e5eb0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x15e170c0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x15e170c0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x15e18530) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x15e18530) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x15e18a90) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x15e18a90) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x1280fa30) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x1280fa30) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x12819df0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x12819df0) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x1450f780) already deleted (list name = THashList)
+Error in <THashList::Delete>: A list is accessing an object (0x1450f780) already deleted (list name = THashList)
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> fixedGridRho*
+TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> btagWeight_*
